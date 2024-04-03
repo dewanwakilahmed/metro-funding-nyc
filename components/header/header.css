@@ -1,0 +1,80 @@
+.header {
+  @apply bg-neutral-900/50
+  text-neutral-50
+  backdrop-blur-sm
+  fixed
+  z-10
+  w-full
+
+  shadow-xl
+
+  flex
+  items-center
+  
+  px-2.5
+  xs:px-4
+  sm:px-6
+  md:px-8
+  lg:px-10
+  xl:px-12
+  2xl:px-20
+  py-2
+  xs:py-3
+  sm:py-4
+  2xl:py-6;
+}
+
+.header-content {
+}
+
+.nav-menu-btn {
+  @apply text-2xl
+  mr-2;
+}
+
+.company-logo {
+  @apply flex
+  flex-col
+  hover:text-blue-600;
+}
+
+.metro-funding {
+  @apply text-xl
+  md:text-2xl
+  xl:text-3xl
+  font-semibold
+  xs:font-bold;
+}
+
+.nyc {
+  @apply text-xs
+  md:text-sm
+  xl:text-base
+  font-mono
+  ml-auto;
+}
+
+.navbar-right {
+  @apply ml-auto;
+}
+
+.navbar-right-list {
+  @apply flex
+  items-center
+  justify-center
+  gap-4
+  md:gap-5
+  lg:gap-6;
+}
+
+.company-phone {
+  @apply font-extralight
+  xs:font-light
+  sm:font-normal
+  hover:text-blue-600;
+}
+
+.navbar-cta {
+  @apply hidden
+  sm:block;
+}
