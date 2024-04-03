@@ -10,9 +10,9 @@ const customFont = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Metro Funding NYC: Tailored Financial Solutions for New York Businesses",
+    "Metro Funding NYC: Tailored Funding Solutions for New York Businesses",
   description:
-    "Metro Funding NYC provides tailored financial solutions for New York businesses. We offer a variety of financial products and services to help you grow your business.",
+    "Metro Funding NYC provides tailored funding solutions for New York businesses. We offer a variety of funding products and services to help you grow your business.",
 };
 
 export default function RootLayout({

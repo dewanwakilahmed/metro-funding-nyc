@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply py-1.5
+  px-3
+  rounded
+  transition
+  shadow-lg;
+}
+
+.btn-primary {
+  @apply bg-blue-700
+  hover:bg-blue-800;
+}
+
+.btn-secondary {
+  @apply bg-neutral-50
+  text-blue-700
+  hover:bg-neutral-300
+  hover:text-blue-800;
+}
