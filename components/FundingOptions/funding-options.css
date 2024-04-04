@@ -102,7 +102,3 @@
   text-base
   sm:text-lg;
 }
-
-.funding-options-item-highlights {
-  @apply text-center;
-}
