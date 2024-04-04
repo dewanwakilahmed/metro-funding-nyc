@@ -1,11 +1,13 @@
 .header {
   @apply bg-neutral-900/50
+  hover:bg-neutral-900/75
   text-neutral-50
   backdrop-blur-sm
   fixed
   z-50
   w-full
 
+  transition
   shadow-xl
 
   flex
@@ -67,7 +69,23 @@
   lg:gap-6;
 }
 
-.company-phone {
+.navbar-item {
+  @apply hidden
+  sm:block;
+}
+
+.home-navbar-item {
+  @apply hidden
+  sm:hidden
+  md:block;
+}
+
+.funding-options-navbar-item {
+  @apply block;
+}
+
+.company-phone,
+.navbar-item a {
   @apply font-extralight
   xs:font-light
   sm:font-normal

@@ -1,14 +1,9 @@
 import React from "react";
-
 import "./header.css";
-
-import { RiMenu4Fill } from "react-icons/ri";
 
 const Header = () => {
   return (
     <header className='header'>
-      {/* <RiMenu4Fill className='nav-menu-btn' /> */}
-
       <a className='company-logo' href='/'>
         <span className='metro-funding'>Metro Funding</span>
         <span className='nyc'>NYC</span>
@@ -16,21 +11,26 @@ const Header = () => {
 
       <nav className='navbar-right'>
         <ul className='navbar-right-list'>
+          <li className='navbar-item home-navbar-item'>
+            <a href='/'>Home</a>
+          </li>
           <li className='navbar-item'>
+            <a href='/#why-choose-us'>Why Us</a>
+          </li>
+          <li className='navbar-item funding-options-navbar-item'>
+            <a href='/#funding-options'>Funding Options</a>
+          </li>
+          <li className='navbar-item'>
+            <a href='/#how-it-works'>How It Works</a>
+          </li>
+          <li className='navbar-item'>
+            <a href='/#about-us'>About Us</a>
+          </li>
+          {/* <li className='navbar-item'>
             <a className='company-phone' href='tel:+1234567890'>
               (234) 567-890
             </a>
-          </li>
-          <li className='navbar-item navbar-cta'>
-            <a className='btn btn-secondary' href='/explore-funding'>
-              MESSAGE US
-            </a>
-          </li>
-          <li className='navbar-item navbar-cta'>
-            <a className='btn btn-primary' href='/apply-now'>
-              APPLY NOW
-            </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>

@@ -12,14 +12,14 @@ const Hero = () => {
         <h2 className='hero-sub-headline'>
           Your Path to Quick Funding, with No Credit Score Worries.
         </h2>
-        <div className='hero-cta'>
+        {/* <div className='hero-cta'>
           <a className='btn btn-primary' href='/apply-now'>
             APPLY NOW
           </a>
           <a className='btn btn-secondary' href='/explore-funding'>
             MESSAGE US
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
