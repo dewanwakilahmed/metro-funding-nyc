@@ -32,7 +32,7 @@ const FundingOptions = () => {
           <FaRegHandshake className='funding-options-item-icon' />
           <h4 className='funding-options-item-title'>SBA Loan</h4>
           <p className='funding-options-item-desc'>
-            Secure your business's future with a low-interest SBA Loan, an
+            Secure your business&apos;s future with a low-interest SBA Loan, an
             excellent choice for significant investment or expansion efforts.
             Benefit from competitive interest rates, among the lowest in the
             market, and enjoy the flexibility of extended repayment terms—up to
