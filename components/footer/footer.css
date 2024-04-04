@@ -1,3 +1,28 @@
-.footer {
-  @apply bg-pink-600;
+.footer-section {
+  @apply bg-neutral-700 text-neutral-50 py-8;
+}
+
+.footer-content {
+  @apply container mx-auto px-4 text-center;
+}
+
+.footer-heading {
+  @apply text-xl font-semibold mb-4;
+}
+
+.footer-links {
+  @apply list-none p-0 flex flex-col md:flex-row justify-center items-center gap-4 mb-4;
+}
+
+.footer-links li a {
+  @apply text-neutral-300 hover:text-blue-300 transition-colors duration-300;
+}
+
+.footer-bottom {
+  @apply text-sm
+  text-center;
+}
+
+.footer-bottom p {
+  @apply text-neutral-400;
 }
