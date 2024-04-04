@@ -6,6 +6,7 @@ import Hero from "@/components/hero/Hero";
 import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import FundingOptions from "@/components/FundingOptions/FundingOptions";
 import HowItWorks from "@/components/HowItWorks/HowItWorks";
+import AboutUs from "@/components/AboutUs/AboutUs";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <WhyChooseUs />
       <FundingOptions />
       <HowItWorks />
+      <AboutUs />
     </main>
   );
 };
