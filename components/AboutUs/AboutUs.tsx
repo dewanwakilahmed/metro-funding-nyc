@@ -7,7 +7,7 @@ import { GiCompass } from "react-icons/gi";
 
 const AboutUs = () => {
   return (
-    <section className='about-us-section'>
+    <section className='about-us-section' id='about-us'>
       <h3 className='about-us-title'>About Metro Funding NYC</h3>
 
       <div className='about-us-content'>

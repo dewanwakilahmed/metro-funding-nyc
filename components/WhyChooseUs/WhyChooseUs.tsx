@@ -9,7 +9,7 @@ import { PiHeadset } from "react-icons/pi";
 
 const WhyChooseUs = () => {
   return (
-    <section className='why-choose-us-section'>
+    <section className='why-choose-us-section' id='why-choose-us'>
       <h3 className='why-choose-us-title'>Why Choose Metro Funding NYC?</h3>
 
       <div className='why-choose-us-content'>

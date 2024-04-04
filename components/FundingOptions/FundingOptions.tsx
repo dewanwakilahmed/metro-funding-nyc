@@ -7,7 +7,7 @@ import { FaRegHandshake } from "react-icons/fa";
 
 const FundingOptions = () => {
   return (
-    <section className='funding-options-section'>
+    <section className='funding-options-section' id='funding-options'>
       <h3 className='funding-options-title'>
         Tailored Funding Options for Your Business Needs
       </h3>

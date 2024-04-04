@@ -9,7 +9,7 @@ import { RiBankFill } from "react-icons/ri";
 
 const HowItWorks = () => {
   return (
-    <section className='how-it-works-section'>
+    <section className='how-it-works-section' id='how-it-works'>
       <h3 className='how-it-works-title'>
         Secure Flexible Funding in Four Easy Steps
       </h3>
