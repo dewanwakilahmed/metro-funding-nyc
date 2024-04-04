@@ -1,4 +1,4 @@
-.why-choose-us-section {
+.funding-options-section {
   @apply bg-gradient-to-t from-neutral-300 to-neutral-100
   relative
   
@@ -18,7 +18,7 @@
   xl:py-16;
 }
 
-.why-choose-us-section::before {
+.funding-options-section::before {
   content: "";
   position: absolute;
   top: 0;
@@ -28,7 +28,7 @@
   background: rgba(0, 0, 0, 0.15);
 }
 
-.why-choose-us-title {
+.funding-options-title {
   @apply text-center
   text-neutral-700
   mb-4
@@ -40,13 +40,12 @@
   sm:text-lg;
 }
 
-.why-choose-us-content {
+.funding-options-content {
   @apply z-20
   
   grid
   grid-cols-1
   md:grid-cols-2
-  xl:grid-cols-4
 
   gap-2.5
   xs:gap-3.5
@@ -58,7 +57,7 @@
   mx-auto;
 }
 
-.why-choose-us-item {
+.funding-options-item {
   @apply flex
   flex-col
   items-center
@@ -76,7 +75,7 @@
   z-30;
 }
 
-.why-choose-us-item-icon {
+.funding-options-item-icon {
   @apply text-3xl
   sm:text-4xl
   mb-2
@@ -85,7 +84,7 @@
   text-neutral-800;
 }
 
-.why-choose-us-item-title {
+.funding-options-item-title {
   @apply text-xl
   sm:text-2xl
   mb-1
@@ -94,7 +93,7 @@
   text-blue-700;
 }
 
-.why-choose-us-item-desc {
+.funding-options-item-desc {
   @apply text-center
   font-light
   leading-5
@@ -102,4 +101,8 @@
   
   text-base
   sm:text-lg;
+}
+
+.funding-options-item-highlights {
+  @apply text-center;
 }
