@@ -8,14 +8,13 @@ const TermsAndConditionsPage = () => {
       <div className='terms-and-conditions-content'>
         <h1>TERMS & CONDITIONS</h1>
         <p>
-          I Fund Daily LLC DBA Metro Funding NYC (hereinafter “Company”) is
-          dedicated to protecting your privacy and providing you with the
-          highest level of service. This Policy explains what the Company does
-          to keep information about you private and secure. This Policy covers
-          only information that you provide to the Company or that it obtains
-          about you from companies that you have chosen to do business with.
-          Please read this Policy carefully and contact us if you have any
-          questions.
+          Metro Funding NYC (hereinafter “Company”) is dedicated to protecting
+          your privacy and providing you with the highest level of service. This
+          Policy explains what the Company does to keep information about you
+          private and secure. This Policy covers only information that you
+          provide to the Company or that it obtains about you from companies
+          that you have chosen to do business with. Please read this Policy
+          carefully and contact us if you have any questions.
         </p>
         <h2>Credit Authorization Information</h2>
         <p>
@@ -23,15 +22,15 @@ const TermsAndConditionsPage = () => {
           above (individually, an “Applicant”) each represents, acknowledges,
           and agrees that (1) all information and documents provided in
           connection with this application are true, accurate, and complete; (2)
-          Applicant will immediately notify I Fund Daily dba Metro Funding NYC
-          of any change in the Business’ financial condition; (3) Applicant
-          understands that Metro Funding NYC may share this information with its
-          representatives, successors, assignees, affiliates and partners as
-          well as third-party lenders/funders and their servicers and financial
-          institutions (“Recipients’); (4) Applicant authorizes Metro Funding
-          NYC and Recipients to request and receive any investigative reports,
-          consumer credit reports, trade references, statements from creditors
-          or financial institutions, verifications of information, or any other
+          Applicant will immediately notify Metro Funding NYC of any change in
+          the Business’ financial condition; (3) Applicant understands that
+          Metro Funding NYC may share this information with its representatives,
+          successors, assignees, affiliates and partners as well as third-party
+          lenders/funders and their servicers and financial institutions
+          (“Recipients’); (4) Applicant authorizes Metro Funding NYC and
+          Recipients to request and receive any investigative reports, consumer
+          credit reports, trade references, statements from creditors or
+          financial institutions, verifications of information, or any other
           information that Metro Funding NYC and/or Recipients deem necessary,
           (5) Applicant waives and releases any claims against Metro Funding
           NYC, Recipients and any information-providers arising from any act or
@@ -103,12 +102,11 @@ const TermsAndConditionsPage = () => {
           department at the following physical address or email address:
         </p>
         <p>
-          I Fund Daily LLC DBA Metro Funding NYC
+          Metro Funding NYC
           <br />
-          764 Saint Lukes Place, Baldwin, NY 11510. Main Office:
-          1-855-METROFUNDINGNYC
+          944 Kings Highway, Brooklyn, NY 11223. Main Office: 1-718-928-2605
           <br />
-          E-mail: support@metrofundingnyc.com
+          E-mail: apply@metrofundingnyc.com
         </p>
         <h2>How We Protect Your Information</h2>
         <p>
@@ -123,8 +121,8 @@ const TermsAndConditionsPage = () => {
         </p>
         <p>
           This Policy applies to current and former customers. If you have any
-          questions, please contact I Fund Daily LLC DBA Metro Funding NYC at
-          405 Lexington Avenue, E-mail: support@metrofundingnyc.com
+          questions, please contact Metro Funding NYC at 944 Kings Highway,
+          Brooklyn, NY 11223. E-mail: apply@metrofundingnyc.com
         </p>
       </div>
     </main>
