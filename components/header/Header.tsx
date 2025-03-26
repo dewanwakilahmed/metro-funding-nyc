@@ -5,8 +5,9 @@ const Header = () => {
   return (
     <header className='header'>
       <a className='company-logo' href='/'>
-        <span className='metro-funding'>Metro Funding</span>
-        <span className='nyc'>NYC</span>
+        {/* <span className='metro-funding'>Metro Funding</span>
+        <span className='nyc'>NYC</span> */}
+        <img src='/metro-funding-nyc-logo.svg' alt='metro-funding-nyc-logo' />
       </a>
 
       <nav className='navbar-right'>

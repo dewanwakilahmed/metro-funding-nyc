@@ -7,6 +7,7 @@ import WhyChooseUs from "@/components/WhyChooseUs/WhyChooseUs";
 import FundingOptions from "@/components/FundingOptions/FundingOptions";
 import HowItWorks from "@/components/HowItWorks/HowItWorks";
 import AboutUs from "@/components/AboutUs/AboutUs";
+import ContactUs from "@/components/ContactUs/ContactUs";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <FundingOptions />
       <HowItWorks />
       <AboutUs />
+      <ContactUs />
     </main>
   );
 };

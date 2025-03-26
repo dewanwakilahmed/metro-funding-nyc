@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./privacy-policy-page.css";
 
 const PrivacyPolicyPage = () => {
@@ -37,7 +36,7 @@ const PrivacyPolicyPage = () => {
               details.
             </li>
             <li>
-              Loan Application: Social Security number, income, employment
+              Funding Application: Social Security number, income, employment
               information, and credit history.
             </li>
             <li>
@@ -107,7 +106,15 @@ const PrivacyPolicyPage = () => {
         </section>
 
         <section>
-          <h2>6. Your Choices and Rights</h2>
+          <h2>6. Data Sharing</h2>
+          <p>
+            We will never sell your personal information, including your phone
+            number, to third parties.
+          </p>
+        </section>
+
+        <section>
+          <h2>7. Your Choices and Rights</h2>
           <p>
             Access and Correction: You have the right to access certain personal
             information we hold about you and to request that we correct, amend,
@@ -123,7 +130,7 @@ const PrivacyPolicyPage = () => {
         </section>
 
         <section>
-          <h2>7. Data Security and Retention</h2>
+          <h2>8. Data Security and Retention</h2>
           <p>
             We use certain physical, managerial, and technical safeguards that
             are designed to improve the integrity and security of personal
@@ -132,7 +139,7 @@ const PrivacyPolicyPage = () => {
         </section>
 
         <section>
-          <h2>8. International Data Transfers</h2>
+          <h2>9. International Data Transfers</h2>
           <p>
             We are based in the United States and the information we collect is
             governed by U.S. law. By accessing or using the Services or
@@ -142,7 +149,7 @@ const PrivacyPolicyPage = () => {
         </section>
 
         <section>
-          <h2>9. Children’s Privacy</h2>
+          <h2>10. Children’s Privacy</h2>
           <p>
             Our Services are not directed to individuals under 18. We do not
             knowingly collect personal information from children under 18.
@@ -150,7 +157,7 @@ const PrivacyPolicyPage = () => {
         </section>
 
         <section>
-          <h2>10. Updates to This Privacy Policy</h2>
+          <h2>11. Updates to This Privacy Policy</h2>
           <p>
             We may change this Privacy Policy from time to time. The “Effective
             Date” at the top of this Privacy Policy indicates when this Privacy
@@ -159,15 +166,15 @@ const PrivacyPolicyPage = () => {
         </section>
 
         <section>
-          <h2>11. Contact Us</h2>
+          <h2>12. Contact Us</h2>
           <p>
             If you have any questions about our privacy practices or this
-            Privacy Policy, please contact us at (855) 536-3835.
+            Privacy Policy, please contact us at (718) 928-2605.
           </p>
         </section>
 
         <section>
-          <h2>12. Additional Information for Certain Jurisdictions</h2>
+          <h2>13. Additional Information for Certain Jurisdictions</h2>
           <p>
             <strong>A. California Residents:</strong> Details regarding
             additional rights afforded to California residents under the

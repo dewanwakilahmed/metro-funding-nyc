@@ -19,6 +19,16 @@
   @apply text-neutral-300 hover:text-blue-700 transition-colors duration-300;
 }
 
+.company-info {
+  @apply flex
+  flex-col
+  items-center
+  justify-center
+  
+  -mt-2.5
+  mb-3.5;
+}
+
 .footer-bottom {
   @apply text-sm
   text-center;

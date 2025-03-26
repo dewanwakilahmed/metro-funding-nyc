@@ -37,7 +37,12 @@
 .company-logo {
   @apply flex
   flex-col
-  hover:text-blue-600;
+  hover:text-blue-600
+  
+  w-24
+  h-auto;
+
+  filter: brightness(0) invert(1);
 }
 
 .metro-funding {
